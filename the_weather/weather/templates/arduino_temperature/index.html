@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arduino's Temperature</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+</head>
+
+<body>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-offset-4 is-4">
+          {% for weather in list_weather %}
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <span class="title">ID: {{ weather.id }}</span>
+                    <br>
+                    <span class="subtitle">Time: {{ weather.created_at }}</span>
+                    <br>
+                    <span class="subtitle">Temperature: {{ weather.temperature }}° C</span>
+                    <br> 
+                    <span class="subtitle">Humidity: {{ weather.humidity }}° %</span>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+  </footer>
+</body>
+
+</html>

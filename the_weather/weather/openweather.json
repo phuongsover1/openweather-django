@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "openweather-369402",
+  "private_key_id": "85f58388d6056144da10384dd2cfb6913fdae88f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8ljmCm+MGEwni\n0QEVPoo1IshLN/htDTDxzp1FTzp8FCPBlb1XTjjKROHoklKx1frRk072dKWXHmvu\nzn64OjNM7IYOlVUI3qePa4sm5MMPHsXr2fyATBMxeEIiJfvzSjsRB8XTAo2FEYKZ\nGVFOrxTP5SaDXckBwWAa/qf4RDmr5tTbaEved3p0A5Q5Oo8JK0/5x/XFMJ3NTdPP\n/rc83ZaMisLGHO8yuKxg73F4fJY2mXOkQf+Gm8rKUNy9pbivDd7avR/iLRueNl8Q\nzVMvUfFuW3YqV+5S4QZ0n6vjz7x+aZgnjXo/1y/FSha7kesJyolFfmiedN9W1LkV\nGlLnhpv/AgMBAAECggEAHj0G4FQMiociTlXC6FwhybQCYlqJdpA8k9kpoIO8AJ8z\naIaRAzRjU2jIwa43R5U5kBcgUdDm/Zx+zp4aStc82I29pQ2kF+BTr7cdFdHCcQ83\nHxfR2TnZg1TMDdusqBhJRkl1GojN66igxIRUZDBwlDEjBBdVSUxvaNoCUYLnAxKh\nQ942mBLgHtVAqJivd5WGpGIOMbOQDcHBdON/lI1xDrBkOdTkxdZsGkexpAAaRJC9\nESAPZcVgRjFevqVT1RlLGCXKiatH+l1C8xO3akMV+CqQyI0O8AAVRKpmhcL6nv0T\nmiRFKVo4tS1KMKsAbH2KEOgfJukxoqUFrEqo2SlxUQKBgQDmQMk+LrDQvFkmLhLO\n4UJ4aYcylDH/KOigGNiHCwmMfrmzK77CLlCQ/KPo37XB2TIGkuus9qWAQRfpIL0V\nPb4GFIn6QutTIC2TZR/PwvdUcVbsXMjcDTI9ER6aBBs5vqyKBRCL8FqR6+d+ViSu\nO0V4IRjuxO5pXLkgRzxzPV2+iQKBgQDRrLPEDPryRgBoAW02T7E1+Z/U8NDXkUau\nCSCKiuK9JCMe/n3AAWne4GwlyQ898rVFNybFqr/G4U525bUmlDX+kIiwMi2cuzNW\n7ftkwrhNaLcs1hCfZ96mlQHGmcJB8qdNWQlqvhqCyjlh+0MhWv1iMMaQT3F69XR3\n7LE5Ov+kRwKBgGZWFRuWFPAxRk453BIm/CwYewZ352DJBdtiL5qVxUC0ckS4BKi5\nfQVzxEYUZ+woZJuXYTgWx6ghRkdPTbrLHlIFfu3EIGNpwdfo8iKdPOBDH6cd9ggX\ntWR+32MEwDUCEh2l8py/zwFcIB9+mf72SQIDc9lrnasmkwFNqAhwFeJBAoGAUZyc\nOBIpV0XiAJmVjc9FFdI84SB+2XlFfpY04Vgf2ykGtpiuD589OzA1SBvTX/RplDBc\nWhIVJW8rIGJWuVZ1EcnmOla9pETFPe/Rqy2TmSXKLpx/ydwfMM3M7CWLFCpD7npa\njP7DyOa3oSiwv3nwKFj94MvbStXhaJBrhvAs8x8CgYEA0zobZo0YyanvboBZdrP3\nhILJF/pILG27lwOae+RtJ6fQINel57OakkUJhWZcXEsyULJAuLlYG/0mVazILA6G\n3wFkLKBco6XVQSvR0UgtYQQWrF6I8xnQ8q6NuHinouIwk23q0yxG6Mov5Nmw584z\njcF086IH4FFXdQWLrNm9o1M=\n-----END PRIVATE KEY-----\n",
+  "client_email": "phuong-nguyen@openweather-369402.iam.gserviceaccount.com",
+  "client_id": "102899145480589647954",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/phuong-nguyen%40openweather-369402.iam.gserviceaccount.com"
+}
