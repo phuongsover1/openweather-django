@@ -58,43 +58,15 @@ def index(request):
         })
 
         # MongoDB
-        # temperature.save()
+        temperature.save()
 
         # Mysql DB
-        temperature.save(using='mysql_db')
+        # temperature.save(using='mysql_db')
 
-    # if is_saved != None:
-
-    # Arduino_Temperature.objects.contains
-    #   cities_ref = db.collection(u'cities_temperature')
-    #   docs = cities_ref.stream()
-    #   for city in docs:
-    #       print(f'{city.id} => {city.to_dict()}')
-
-    #   # cities = TemperatureCity.objects.all()
     list_weather = Arduino_Temperature.objects.using(
         'mysql_db').all().order_by('-id')[:10]
 
-    #   list_weather = []
-
-    #   my_api_key = '3cebd2fe51f0c0bdbd71f6cdba4e1306'
-    #   for city in cities:
-    #       city_weather = requests.get(url.format(city, my_api_key)).json()
-
-    #       getcontext().prec = 4
-    #       temperature = (
-    #           Decimal(city_weather['main']['temp']) - 32) * Decimal(5/9)
-
-    #       weather = {
-    #           'city': city,
-    #           'temperature': temperature,
-    #           'description': city_weather['weather'][0]['description'],
-    #           'icon': city_weather['weather'][0]['icon']
-    #       }
-    #       list_weather.append(weather)
-
     context = {
         'list_weather': list_weather,
-        # 'form': form
     }
     return render(request, 'arduino_temperature/index.html', context)

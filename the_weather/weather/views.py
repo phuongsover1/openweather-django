@@ -13,16 +13,6 @@ from firebase_admin import credentials
 
 
 # Create your views here.
-# Application Default credentials are automatically created.
-
-
-# Use a service account.
-# cred = credentials.Certificate(
-#     '/media/phuongnguyen/DATA/PythonProjects/openweather/the_weather/weather/openweather.json')
-
-# app = firebase_admin.initialize_app(cred)
-
-# db = firestore.client()
 
 
 def index(request):
@@ -37,17 +27,9 @@ def index(request):
         new_city = TemperatureCity()
         new_city.name = form.data.get('name')
         new_city.save(using='mysql_db')
-        # doc_ref = db.collection(u'cities_temperature').document(new_city.name)
-        # doc_ref.set({
-        #     u'name': new_city.name,
-        # })
-
-    # cities_ref = db.collection(u'cities_temperature')
-    # docs = cities_ref.stream()
-    # for city in docs:
-    #     print(f'{city.id} => {city.to_dict()}')
 
     form = CityForm()
+
     # cities = TemperatureCity.objects.all()
     cities = TemperatureCity.objects.using('mysql_db').all()
 
