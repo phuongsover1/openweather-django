@@ -2,6 +2,8 @@ from django.shortcuts import render
 import requests
 from decimal import Decimal
 from decimal import getcontext
+from django.utils import timezone
+from datetime import datetime
 
 from .forms import CityForm
 
@@ -55,4 +57,7 @@ def index(request):
         'list_weather': list_weather,
         'form': form
     }
+
+    time = datetime('2020-10-31 12:00:00+01:00')
+    print(time)
     return render(request, 'weather/index.html', context)

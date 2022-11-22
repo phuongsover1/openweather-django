@@ -23,7 +23,10 @@
                   <p>
                     <span class="title">ID: {{ weather.id }}</span>
                     <br>
+                    <!-- {% load tz %}
+                    {% timezone "Etc/GMT-7" %} -->
                     <span class="subtitle">Time: {{ weather.created_at }}</span>
+                    <!-- {% endtimezone %} -->
                     <br>
                     <span class="subtitle">Temperature: {{ weather.temperature }}° C</span>
                     <br> 
